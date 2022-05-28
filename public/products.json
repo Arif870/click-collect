@@ -1,0 +1,66 @@
+[
+  {
+    "_id": 23211,
+    "name": "Fantacy Banana",
+    "img": "https://i.ibb.co/Hd1rKSG/banana.png",
+    "price": 12,
+    "rating": 4.7,
+    "category": "Fruits"
+  },
+  {
+    "_id": 32233,
+    "name": "Pure Eggplant",
+    "img": "https://i.ibb.co/RQ2Rn6Q/eggplant.png",
+    "price": 23,
+    "rating": 4.6,
+    "category": "Vegetables"
+  },
+  {
+    "_id": 34422,
+    "name": "New Fennal",
+    "img": "https://i.ibb.co/zmy8HD5/fennal.png",
+    "price": 14,
+    "rating": 4.9,
+    "category": "Vegetables"
+  },
+  {
+    "_id": 54422,
+    "name": "Green Lettuce",
+    "img": "https://i.ibb.co/6Fv0PWK/lettuce.png",
+    "price": 18,
+    "rating": 4.8,
+    "category": "Vegetables"
+  },
+  {
+    "_id": 54423,
+    "name": "Mosh Mashroom",
+    "img": "https://i.ibb.co/2WfK7nP/mashroom.png",
+    "price": 25,
+    "rating": 4.8,
+    "category": "Vegetables"
+  },
+  {
+    "_id": 45332,
+    "name": "Nuts",
+    "img": "https://i.ibb.co/Qd6jqD6/nuts.png",
+    "price": 28,
+    "rating": 4.9,
+    "category": "fruits"
+  },
+  {
+    "_id": 65443,
+    "name": "Gray Potato ",
+    "img": "https://i.ibb.co/MC1w3G4/potato.png",
+    "price": 28,
+    "rating": 4.8,
+    "category": "fruits"
+  },
+  {
+    "_id": 65567,
+    "name": "Red Tomato ",
+    "img": "https://i.ibb.co/2s1Rxqk/tomato.png",
+    "price": 28,
+    "rating": 4.5,
+    "category": "fruits"
+  }
+]

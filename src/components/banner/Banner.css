@@ -1,0 +1,28 @@
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 50px;
+  align-items: center;
+  grid-gap: 20px;
+}
+.banner_left h1 {
+  line-height: 50px;
+  color: #333;
+  font-size: 40px;
+  font-style: italic;
+}
+.banner_left p {
+  font-size: 25px;
+}
+.banner_left h3 {
+  background-color: rgba(255, 68, 0, 0.123);
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  letter-spacing: 20px;
+}
+.banner h1 span {
+  color: orangered;
+  font-size: 80px;
+  font-weight: bold;
+}

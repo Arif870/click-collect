@@ -1,0 +1,35 @@
+.product {
+  box-shadow: 5px 7px 12px #cbe3eb9c;
+  border-radius: 4px;
+}
+.product button {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.p-content {
+  padding: 0px 20px 20px;
+}
+.product-image img {
+  width: 400px;
+}
+.product-image {
+  background-color: #cbe3eb4d;
+  position: relative;
+  border-radius: 4px;
+}
+.product-image span {
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  background-color: orangered;
+  color: white;
+  padding: 5px 25px;
+  border-radius: 4px 15px;
+  font-weight: bold;
+}

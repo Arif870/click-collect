@@ -1,0 +1,28 @@
+.details {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  height: fit-content;
+  background-color: rgb(202, 237, 244);
+  box-shadow: 5px 7px 12px #cbe3eb9c;
+  border-radius: 4px;
+}
+span.sproducts {
+  background-color: rgba(211, 211, 211, 0.445);
+  padding: 5px 10px;
+  margin: 6px 5px;
+  border-radius: 4px;
+  box-shadow: 5px 7px 12px #cbe3eb9c;
+  display: inline-block;
+}
+.details button {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  background-color: orangered;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+}

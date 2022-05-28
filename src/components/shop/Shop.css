@@ -1,0 +1,38 @@
+.shop {
+  margin: 50px 0px;
+  color: #333;
+}
+.shop .search {
+  text-align: center;
+}
+.shop .search input {
+  width: 60%;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid orangered;
+}
+.search span {
+  background-color: orangered;
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  margin-top: -30px;
+  margin-left: -15px;
+  font-size: 12px;
+  width: 12px;
+  height: 12px;
+  line-height: 12px;
+}
+.shop-childs {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 50px;
+  grid-gap: 40px;
+}
+.products {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
