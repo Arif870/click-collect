@@ -8,11 +8,15 @@ import "./Shop.css";
 const Shop = () => {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
+  const [searchedProduct, setSearchedProduct] = useState([]);
 
   useEffect(() => {
     fetch("./products.json")
       .then(res => res.json())
-      .then(data => setProducts(data));
+      .then(data => {
+        setProducts(data);
+        setSearchedProduct(data);
+      });
   }, []);
 
   // add to cart event handalar
@@ -29,6 +33,17 @@ const Shop = () => {
       style={{ fontSize: "30px", marginLeft: "20px" }}
     />
   );
+
+  // search Product
+
+  const handleSearch = e => {
+    const searchdProduct = e.target.value;
+    const filteredProduct = products.filter(product =>
+      product.name.toLowerCase().includes(searchdProduct.toLowerCase())
+    );
+    setSearchedProduct(filteredProduct);
+  };
+
   return (
     <div className="shop">
       <div className="search">
@@ -41,7 +56,11 @@ const Shop = () => {
             justifyContent: "center",
           }}
         >
-          <input placeholder="Search products" type="text" />
+          <input
+            onChange={handleSearch}
+            placeholder="Search products"
+            type="text"
+          />
           {cartIcon}
           <span>{cart.length}</span>
         </div>
@@ -49,7 +68,7 @@ const Shop = () => {
 
       <div className="shop-childs">
         <div className="products">
-          {products.map(product => (
+          {searchedProduct.map(product => (
             <Products
               handleCart={handleCart}
               key={product._id}
